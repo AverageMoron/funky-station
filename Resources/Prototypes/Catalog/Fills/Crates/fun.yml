@@ -75,8 +75,8 @@
         weight: 1
       - id: PlushieLizardInversed
         weight: 0.5
-      - id: WehNade
-        weight: 0.3
+#      - id: WehNade
+#        weight: 0.3
     - !type:GroupSelector
       children:
       - id: PlushieCarp
@@ -134,9 +134,9 @@
         - id: PlushieSpaceLizard
           amount: !type:ConstantNumberSelector
             value: 3
-        - id: WehNade #WEH!
-          amount: !type:ConstantNumberSelector
-            value: 3
+#        - id: WehNade #WEH!
+#          amount: !type:ConstantNumberSelector
+#            value: 3
 
 - type: entity
   id: CrateFunSharkPlushieBulk
